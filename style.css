@@ -270,11 +270,65 @@ a:hover {
 
 /*Footer starts*/
 
-.enactus-links.list-unstyled.li{
-  text-deocration:none ;
-  color: white;
+/* Additional styles for the footer */
+footer {
+  padding: 50px 0;
+  background-color: #5b5b5b; /* Updated background color */
+  color: #fff;
 }
-.enactus-links.a:hover{
-  color: yellow;
+
+.col-md-6 {
+  padding: 20px;
+}
+
+/* Styles for text size and font */
+footer h4 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+/* Styling for social media icons */
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #0056b3;
+  color: #fff; /* Set icon color to white on hover */
+  transform: scale(1.1);
 }
 /*Footer ends*/
